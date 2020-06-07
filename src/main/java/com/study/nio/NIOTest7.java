@@ -3,7 +3,7 @@ package com.study.nio;
 import java.nio.CharBuffer;
 
 /**
- * 使用flip解决NIOTest的行为
+ * 使用flip解决NIOTest6的行为
  */
 public class NIOTest7 {
     public static void main(String[] args) {

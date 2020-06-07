@@ -11,7 +11,7 @@ public class NIOTest2 {
         CharBuffer buffer = CharBuffer.wrap(charArray);
         System.out.println("A capacity()=" + buffer.capacity() + " limit()=" + buffer.limit());
         buffer.limit(4);
-        buffer.position(2);
+        //buffer.position(2);
         System.out.println("B capacity()=" + buffer.capacity() + " limit()=" + buffer.limit());
         buffer.put(0, '0');
         buffer.put(1, 'h');
