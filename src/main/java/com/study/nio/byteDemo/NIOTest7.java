@@ -1,11 +1,11 @@
-package com.study.nio;
+package com.study.nio.byteDemo;
 
 import java.nio.CharBuffer;
 
 /**
- * 测试postion和limit的使用，模仿flip行为
+ * 使用flip解决NIOTest6的行为
  */
-public class NIOTest6 {
+public class NIOTest7 {
     public static void main(String[] args) {
         //创建一个CharBuffer，容量为20
         CharBuffer charBuffer = CharBuffer.allocate(20);
@@ -31,13 +31,12 @@ public class NIOTest6 {
         charBuffer.put("我不前行的时候，你也在前行");
         charBuffer.append("我要更努力");
 
-        charBuffer.limit(charBuffer.position());
-        charBuffer.position(0);
+        //charBuffer.limit(charBuffer.position());
+        //charBuffer.position(0);
+        charBuffer.flip();
         for (int i = 0; i < charBuffer.limit(); i++) {
             System.out.print(charBuffer.get());
         }
         System.out.println(" ");
     }
-
-
 }

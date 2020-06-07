@@ -1,4 +1,4 @@
-package com.study.nio;
+package com.study.nio.byteBufferDemo;
 
 import javax.print.DocFlavor;
 import java.nio.ByteBuffer;

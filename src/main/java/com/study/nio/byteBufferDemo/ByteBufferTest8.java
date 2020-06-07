@@ -1,4 +1,4 @@
-package com.study.nio;
+package com.study.nio.byteBufferDemo;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

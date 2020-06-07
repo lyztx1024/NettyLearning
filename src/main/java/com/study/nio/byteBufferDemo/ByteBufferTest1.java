@@ -1,4 +1,4 @@
-package com.study.nio;
+package com.study.nio.byteBufferDemo;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

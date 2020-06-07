@@ -1,4 +1,4 @@
-package com.study.nio;
+package com.study.nio.byteBufferDemo;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.ByteBuffer;

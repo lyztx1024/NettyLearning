@@ -1,4 +1,4 @@
-package com.study.nio;
+package com.study.nio.byteDemo;
 
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
