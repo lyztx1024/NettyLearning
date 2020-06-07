@@ -11,8 +11,8 @@ import java.nio.charset.Charset;
 public class ByteBufferTest7 {
     public static void main(String[] args) throws UnsupportedEncodingException {
         //会出现乱码现象
-       // charBufferDemo();
-       // charBufferDemo2();
+        charBufferDemo();
+        charBufferDemo2();
         charBufferDemo3();
     }
 
@@ -29,7 +29,7 @@ public class ByteBufferTest7 {
         System.out.println(buffer.capacity());
         buffer.position(0);
         for (int i = 0; i < buffer.capacity(); i++) {
-            System.out.println(buffer.get()+" ");
+            System.out.print(buffer.get()+" ");
         }
     }
 

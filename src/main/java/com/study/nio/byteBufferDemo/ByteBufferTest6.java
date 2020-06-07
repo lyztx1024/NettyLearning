@@ -23,7 +23,7 @@ public class ByteBufferTest6 {
         }
         System.out.println();
         for (int i = 0; i < byteArray2.length ; i++) {
-            System.out.println(byteArray2[i]+" ");
+            System.out.print(byteArray2[i]+" ");
         }
     }
 }
